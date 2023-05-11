@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        
+        <h1>Jipuvura Games</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Consoles</a></li>
+                <li><a href="#">Jogos</a></li>
+                <li><a href="#">Vídeos</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda accusantium cum expedita blanditiis. Mollitia reprehenderit veritatis dolores repellendus facere? Consequatur eum perferendis recusandae totam eos explicabo corporis tenetur vero hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos, nemo deleniti aliquam earum beatae qui blanditiis corporis ullam maiores at rem iusto maxime totam, non architecto, molestiae quo obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel animi, neque commodi, officia nostrum ullam accusantium placeat, aperiam et itaque molestiae ipsum obcaecati laudantium dicta illo vitae sequi velit dolor!</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda accusantium cum expedita blanditiis. Mollitia reprehenderit veritatis dolores repellendus facere? Consequatur eum perferendis recusandae totam eos explicabo corporis tenetur vero hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos, nemo deleniti aliquam earum beatae qui blanditiis corporis ullam maiores at rem iusto maxime totam, non architecto, molestiae quo obcaecati!</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda accusantium cum expedita blanditiis. Mollitia reprehenderit veritatis dolores repellendus facere? Consequatur eum perferendis recusandae totam eos explicabo corporis tenetur vero hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos, nemo deleniti aliquam earum beatae qui blanditiis corporis ullam maiores at rem iusto maxime totam, non architecto, molestiae quo obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati doloribus, totam fugiat beatae porro mollitia placeat dolorum eaque? Recusandae reprehenderit beatae facilis, possimus illo amet ratione minima porro rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid animi perferendis voluptatibus. Sit iure modi mollitia, velit maiores totam ullam qui molestias ipsum illum in, doloremque deserunt nemo debitis voluptates.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed esse sapiente minus tempore voluptatem fugit molestias id inventore, rerum molestiae aliquam quidem animi cupiditate quasi ad recusandae quas amet.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
