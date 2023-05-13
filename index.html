@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         
         <h1>Jipuvura Games</h1>
@@ -32,6 +33,10 @@
 
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda accusantium cum expedita blanditiis. Mollitia reprehenderit veritatis dolores repellendus facere? Consequatur eum perferendis recusandae totam eos explicabo corporis tenetur vero hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos, nemo deleniti aliquam earum beatae qui blanditiis corporis ullam maiores at rem iusto maxime totam, non architecto, molestiae quo obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati doloribus, totam fugiat beatae porro mollitia placeat dolorum eaque? Recusandae reprehenderit beatae facilis, possimus illo amet ratione minima porro rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid animi perferendis voluptatibus. Sit iure modi mollitia, velit maiores totam ullam qui molestias ipsum illum in, doloremque deserunt nemo debitis voluptates.</p>
 
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda accusantium cum expedita blanditiis. Mollitia reprehenderit veritatis dolores repellendus facere? Consequatur eum perferendis recusandae totam eos explicabo corporis tenetur vero hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos, nemo deleniti aliquam earum beatae qui blanditiis corporis ullam maiores at rem iusto maxime totam, non architecto, molestiae quo obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati doloribus, totam fugiat beatae porro mollitia placeat dolorum eaque? Recusandae reprehenderit beatae facilis, possimus illo amet ratione minima porro rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid animi perferendis voluptatibus. Sit iure modi mollitia, velit maiores totam ullam qui molestias ipsum illum in, doloremque deserunt nemo debitis voluptates.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda accusantium cum expedita blanditiis. Mollitia reprehenderit veritatis dolores repellendus facere? Consequatur eum perferendis recusandae totam eos explicabo corporis tenetur vero hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dignissimos, nemo deleniti aliquam earum beatae qui blanditiis corporis ullam maiores at rem iusto maxime totam, non architecto, molestiae quo obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. A obcaecati doloribus, totam fugiat beatae porro mollitia placeat dolorum eaque? Recusandae reprehenderit beatae facilis, possimus illo amet ratione minima porro rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid animi perferendis voluptatibus. Sit iure modi mollitia, velit maiores totam ullam qui molestias ipsum illum in, doloremque deserunt nemo debitis voluptates.</p>
+
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed esse sapiente minus tempore voluptatem fugit molestias id inventore, rerum molestiae aliquam quidem animi cupiditate quasi ad recusandae quas amet.</p>
         </article>
     </main>
@@ -42,6 +47,14 @@
             } else {
                 itens.style.display = 'block'
             }
+        }
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'}
+                else {
+                    itens.style.display ='none'
+                }
         }
     </script>
 </body>
